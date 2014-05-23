@@ -1,4 +1,4 @@
-GettingClearingDataAssignment
+Getting and Clearing Data Assignment
 =============================
 This R.file is extracting all mean and standard deviation varaibles from feature vectors of the accelerometer's dataset. 
 The measurements are generated from 6 activities and 30 subjects. 
