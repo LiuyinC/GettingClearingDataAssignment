@@ -30,6 +30,6 @@ NamedActData <- NamedActData[,c(82, 2:81)]
 ## Create a tidy data with avergae of each variable for each activity and each subject.
 library(plyr)
 AveData <- ddply(NamedActData, .(Activity, Subject), numcolwise(mean))
-write.csv(AveData, "./Average_Activity.csv", row.names = F)
+write.table(AveData, "./Average_Activity.txt", row.names = F)
 
 
